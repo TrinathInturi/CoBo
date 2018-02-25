@@ -1,0 +1,18 @@
+body{
+    background-color:black;
+    color:white;
+}
+a{
+    color:#339beb;
+}
+.stage-active {
+    color: yellowgreen;
+}
+
+.imp {
+    color: red;
+}
+
+.link-imp {
+    color: red;
+}
