@@ -1,7 +1,20 @@
 <html>
-
+<head>
+    <style>
+        .stage-active{
+            color:yellowgreen;
+        }
+        .imp{
+            color:red;
+        }
+        .link-imp{
+            color:red;
+        }
+    </style>
+</head>
 <body>
     <h1>CoBo</h1>
+    <h3 class="imp">Currenty Under Development!!<a href="#dev-ref">Developers Look Here=></a></h3>
     <p>This application built on javascript helps you to load the contacts from a file(currenlty we support vcf:VCard File).</p>
     <p>Contacts are loaded into Interface of our application 'CoBo'.</p>
     <p>Later when you are done with every thing just export into vcard file! It's Done Simple Isn't it?</p>
@@ -18,11 +31,27 @@
         </ul>
     </div>
     <div id="useCoBo">
-        <h1>Learn Why TO Use Cobo </h1>
+        <h1>Learn Why To Use CoBo </h1>
         <ul>
             <li>To add a contact</li>
             <li>To delete a contact</li>
             <li>To Edit a contact</li>
+        </ul>
+    </div>
+    <div id="dev-ref">
+        <h4>Hey Developer! Below is the application status</h4>
+        <ul>
+            <li class="stage-active">Project in Stage 1
+                <p>Stage 1 is about:-</p>
+                <ul>
+                    <li>Identify Users</li>
+                    <li>Identify the mechanism of application</li>
+                    <li>Find the possibilites of creating application</li>
+                    <li>Gather Requirements</li>
+                    <li>....(as it is in progress list may be imporved)</li>
+                    <li><strong><a class="link-imp" href="#">Please use the documentation from here!!</a></strong></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </body>
