@@ -1,20 +1,10 @@
 <html>
-<head>
-    <style>
-        .stage-active{
-            color:yellowgreen;
-        }
-        .imp{
-            color:red;
-        }
-        .link-imp{
-            color:red;
-        }
-    </style>
-</head>
+
 <body>
     <h1>CoBo</h1>
-    <h3 class="imp">Currenty Under Development!!<a href="#dev-ref">Developers Look Here=></a></h3>
+    <h3 style="color:red">Currenty Under Development!!
+        <a href="#dev-ref">Developers Look Here=></a>
+    </h3>
     <p>This application built on javascript helps you to load the contacts from a file(currenlty we support vcf:VCard File).</p>
     <p>Contacts are loaded into Interface of our application 'CoBo'.</p>
     <p>Later when you are done with every thing just export into vcard file! It's Done Simple Isn't it?</p>
@@ -41,7 +31,7 @@
     <div id="dev-ref">
         <h4>Hey Developer! Below is the application status</h4>
         <ul>
-            <li class="stage-active">Project in Stage 1
+            <li style="color:yellowgreeen">Project in Stage 1
                 <p>Stage 1 is about:-</p>
                 <ul>
                     <li>Identify Users</li>
@@ -49,7 +39,11 @@
                     <li>Find the possibilites of creating application</li>
                     <li>Gather Requirements</li>
                     <li>....(as it is in progress list may be imporved)</li>
-                    <li><strong><a class="link-imp" href="#">Please use the documentation from here!!</a></strong></li>
+                    <li>
+                        <strong>
+                            <a style="color:red" href="#">Please use the documentation from here!!</a>
+                        </strong>
+                    </li>
                 </ul>
             </li>
         </ul>
