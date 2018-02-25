@@ -1,5 +1,5 @@
 # CoBo
-#### Currenty Under Development!! [Developers Look Here=>](#markdown-header-developer-reference)
+#### Currenty Under Development!! [Developers Look Here=>](#developer-reference)
 This application built on javascript helps you to load the contacts from a file(currenlty we support vcf:VCard File).
 
 Contacts are loaded into Interface of our application 'CoBo'.
@@ -13,7 +13,7 @@ Then what are you waiting for Head over to cobo
 #### Let's make it simple
 + Upload The VCF File
 + We will load your contacts
-+ [Use CoBo](#markdown-header-using-cobo)
++ [Use CoBo](#using-cobo)
 + Export your contacts again
 
 # Using CoBo
